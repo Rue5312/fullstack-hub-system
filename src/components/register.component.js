@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-export default class SignUp extends Component {
+export default class Register extends Component {
     render() {
         return (
             <form>
-                <h3>Sign Up</h3>
+                <h3>Register</h3>
 
                 <div className="form-group">
                     <label>First name</label>
@@ -26,10 +26,11 @@ export default class SignUp extends Component {
                     <input type="password" className="form-control" placeholder="Enter password" />
                 </div>
 
-                <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
+                <button type="submit" className="btn btn-primary btn-block">Register</button>
                 <p className="forgot-password text-right">
-                    Already registered <a href="#">sign in?</a>
+                    Already registered <a href="./sign-in">Login</a>
                 </p>
+                
             </form>
         );
     }

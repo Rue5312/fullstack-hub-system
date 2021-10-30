@@ -4,7 +4,7 @@ export default class Login extends Component {
     render() {
         return (
             <form>
-                <h3>Sign In</h3>
+                <h3>Login</h3>
 
                 <div className="form-group">
                     <label>Email address</label>
@@ -24,9 +24,11 @@ export default class Login extends Component {
                 </div>
 
                 <button type="submit" className="btn btn-primary btn-block">Submit</button>
-                <p className="forgot-password text-right">
-                    Forgot <a href="#">password?</a>
+                <p className="forgot-password text-center">
+                    Forgot <a href="#">password?        </a> |
+                    New user <a href="./sign-up">Register</a>
                 </p>
+               
             </form>
         );
     }
